@@ -1,5 +1,4 @@
-body,
-html {
+* {
   margin: 0;
   padding: 0;
 }
@@ -11,6 +10,39 @@ body {
 
 * {
   box-sizing: border-box;
+}
+
+header {
+  height: 60px;
+  background-color: #3b5998;
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+header .title {
+  display: flex;
+}
+
+header h1 {
+  color: white;
+  line-height: 60px;
+  margin-right: 5px;
+}
+
+header button {
+  background-color: #42b72a;
+  border: none;
+  color: white;
+  margin: auto;
+
+  height: 20px;
+  width: 30px;
+}
+
+header nav {
+  line-height: 60px;
+  color: white;
 }
 
 ul {
