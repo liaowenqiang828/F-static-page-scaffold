@@ -45,6 +45,21 @@ header button {
 header nav {
   line-height: 60px;
   color: white;
+  display: flex;
+}
+
+header nav a {
+  display: inline-block;
+}
+
+#triangle {
+  margin-left: 5px;
+  margin-top: 25px;
+  width: 0;
+  height: 0;
+
+  border: 8px solid transparent;
+  border-top:  8px solid white;
 }
 
 main {
@@ -94,3 +109,4 @@ ul {
   margin: 0;
   padding: 0;
 }
+
